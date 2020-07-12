@@ -9,7 +9,7 @@ email: sabugeorge.mec@gmail.com
 phone: + 91-9650572511
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username:  sabsgeo
@@ -45,10 +45,11 @@ about_content: |
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in software engineering some of my other interests and hobbies are:
-    Cooking
-    Trekking
-    Cycling
-    Going for long driving 
+
+    - Cooking
+    - Trekking
+    - Cycling
+    - Going for long driving 
 
 # Footer
 footer_show_references: true

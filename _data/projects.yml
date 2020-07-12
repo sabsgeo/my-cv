@@ -28,7 +28,7 @@
   quote: >
     To scale up and connect to cloud legacy desktop application in the field of bioinformatics
   description: |
-    This capability was as developed as the part of Polly compute. This project has two motivations:
+    This capability was as developed as the part of Polly compute. This project had two motivations:
       - Make computational resource thirsty desktop application to scale
       - Make desktop applications usable in a browser
     
@@ -54,7 +54,7 @@
 
     This project gave both Angular developers and Shiny developers
       - A CLI for generating boilerplate of different kinds of application
-      - Reusable components and service and scripts which helps to integrate with the platforms
+      - Reusable components, service and scripts which helps to integrate with the platforms
       - CI/CD pipeline for the applications
 
 - layout: top-middle
@@ -63,7 +63,7 @@
   quote: >
     One stop solution to harness the power of biomedical data
   description: |
-    I was lead developer during the initial phase of the project. During this time, we build the base architecture for the platform. The features of the platform include,
+    I was a lead developer during the initial phase of the project. During this time, we build the base architecture for the platform. The features of the platform include,
       - Serving and hosting angular application
       - Running computationally intensive analysis
       - Running workflows on platform
@@ -80,6 +80,6 @@
   quote: >
     An open-source high throughput metabolomics tool
   description: |
-    I was lead developer during the initial phase of the project. This tool was  developed at Princeton University. As part of the client project, I took the tool and refactored and optimized in terms of speed of execution and memory, and fixed bugs. The tool was build with,
+    I was a lead developer during the initial phase of the project. This tool was  developed at Princeton University. As part of the client project, I took the tool refactored and optimized in terms of speed of execution and memory, and fixed bugs. The tool was build with,
       - **Qt** a the framework
       - **C++** as the main language
