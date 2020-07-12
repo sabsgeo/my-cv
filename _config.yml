@@ -45,8 +45,9 @@ about_content: |
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in software engineering some of my other interests and hobbies are:
+    Cooking
     Trekking
-    Cycling 
+    Cycling
     Going for long driving 
 
 # Footer
