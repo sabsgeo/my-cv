@@ -16,6 +16,10 @@
 
       {%- include about.html -%}
 
+      {%- if site.data.skills.size > 0 -%}
+        {%- include skill.html -%}
+      {%- endif -%}
+
       {%- if site.data.projects.size > 0 -%}
         {%- include projects.html -%}
       {%- endif -%}
@@ -39,6 +43,13 @@
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
+  <script>
+    (function() {
+      for (const eachElem of document.getElementsByClassName("level-bar-inner")) {
+        eachElem.style.width = eachElem.getAttribute('data-level');
+      }
+    })();
+  </script>
 </body>
 
 </html>

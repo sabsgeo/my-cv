@@ -239,3 +239,42 @@ body {
     display: none !important;
   }
 }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .skillset .level-title {
+      display: inline-block;
+      float: left;
+      width: 30%;
+      margin-bottom: 0;
+  }
+
+  .skillset .level-bar {
+      display: inline-block;
+      width: 70%;
+      float: left;
+      position: relative;
+      top: 1px;
+  }
+
+}
+.skillset {
+  .item {
+      margin-bottom: 15px;
+      overflow: hidden;
+  }
+  .level-title {
+      font-size: 1.6rem;
+      margin-top: 0;
+      margin-bottom: 12px;
+  }
+  .level-bar {
+      height: 12px;
+      background: #4C4C4C;
+  }
+  .level-bar-inner {
+      height: 12px;
+      background: lighten(#f7f7f7, 15%);
+  }
+}

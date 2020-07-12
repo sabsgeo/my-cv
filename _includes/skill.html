@@ -1,0 +1,18 @@
+<div class="container projects-container">
+  <h3>{{ site.projects_title | default: "Skills & Proficiency" }}</h3>
+  <div class="row clearfix layout layout-top-left">
+    <div class="col-xs-12 col-print-12 details">
+      {% for skill in site.data.skills %}
+        <div class="skillset">
+          <div class="item">
+            <h4 class="level-title"><b>{{ skill.name }}</b></h4>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="{{ skill.level }}">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+        </div>
+      {% endfor %}
+    </div><!--//item-->
+  </div>
+</div>
