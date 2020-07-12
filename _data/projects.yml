@@ -1,9 +1,37 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  name: Polly Compute
+  link: https://elucidata.io/compute/
   quote: >
-    Short overview of the project (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    A scalable cloud product for code packaging, computation and data exploration for bioinformatician
+  description: |
+    I am the **technical lead/architect** for this project. In Polly compute, we build a scalable, secure cloud computing infrastructure that meets the data crunching, data exploration needs of bioinformaticians.
+    Polly compute uses,
+      - **Kubernetes** and **dockers** as the main underlying technology
+      - **AWS** and **Asure** cloud as the cloud providers
+      - **Terraform** to maintain infrastructure as code
+      - **Python**, **Typescript**, **Node**, **R** , **Java** as the main languages 
+
+    Capabilities of Polly compute include scaling  of,
+      - Batch Jobs
+      - API requests
+      - [Jupyter Notebooks](https://jupyter.org/)
+      - [Shiny applications](https://shiny.rstudio.com/)
+      - GPU instances
+      - Way to maintain and build private and public dockers
+
+    Polly compute has two ways it faces the customers over the [web](http://polly.elucidata.io/), and over [terminal](https://www.npmjs.com/package/@elucidatainc/pollycli). 
+
+- layout: top-middle
+  name: Scaling desktop applications on cloud
+  link: https://docs.elucidata.io/Apps/Host%20Apps.html#desktop-applications
+  quote: >
+    To scale up and connect to cloud legacy desktop application in the field of bioinformatics
+  description: |
+    This capability was as developed as the part of Polly compute. This project has two motivations:
+      - Make computational resource thirsty desktop application to scale
+      - Make desktop applications usable in a browser
+    
+      This capability is built on top of an opensource project [Apache Guacamole](https://guacamole.apache.org/). In this project, we packaged some applications on top of Apache Guacamole so that bioinformaticians can easily take their desktop applications to the cloud. This project uses:
+      - Docker as the main technology stack
+      - Java as the main language
