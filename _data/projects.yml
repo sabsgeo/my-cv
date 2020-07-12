@@ -73,3 +73,13 @@
     These features were developed on
       - **AWS** as the cloud provider, where AWS services such as **S3**, **ECS**, **Cloudfront**, **ECR**, **SQS**, **Dynamo**, **RDS**, **Lambda** were used
       - **Python**, **Typescript** as the main languages
+
+- layout: top-middle
+  name: El-MAVEN
+  link: https://github.com/ElucidataInc/ElMaven
+  quote: >
+    An open-source high throughput metabolomics tool
+  description: |
+    I was lead developer during the initial phase of the project. This tool was  developed at Princeton University. As part of the client project, I took the tool and refactored and optimized in terms of speed of execution and memory, and fixed bugs. The tool was build with,
+      - **Qt** a the framework
+      - **C++** as the main language

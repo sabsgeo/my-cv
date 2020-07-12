@@ -1,10 +1,46 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
+  company: Elucidata Pvt Ltd.
+  link: http://elucidata.io/
   job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  dates: July 2015 - present
   quote: >
-   Short description of the company (optional)
+    Build platform and services in the integration of biomedical data
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    - The first employee of the Company
+    - Tech leads a team of Engineers in creating a world-class product in the field of drug discovery
+    - Extensive working knowledge of cloud infrastructure and security
+    - Does hands-on develop, product planning and people management in equal proportion
+    - Works in coordination with the data analytics team and product team to gather and understand the user requirements
+
+- layout: left
+  company: Jeevomics Pvt Ltd.
+  link: https://jeevomics.com/
+  job_title: Software Engineer
+  dates: October 2014 – June 2015
+  quote: >
+    Helps solve fundamental problems in biology and medicine by analyzing, modeling and visualizing data
+  description: | # this will include new lines to allow paragraphs
+    - Developing web applications with Flask as the backend and vanilla Javascript in the frontend
+
+- layout: left
+  company: Orca Radio Systems
+  link: http://www.orcasystems.com/
+  job_title: Systems Engineer
+  dates: August 2013 – September 2014
+  quote: >
+    Designed ow-power digital RF transceivers for the exploding IoT device market.
+  description: | # this will include new lines to allow paragraphs
+    - Working with a team on developing low power Bluetooth chip
+    - Designed digital system which modulated the Bluetooth signal
+
+- layout: left
+  company: Broadcom Pvt Ltd.
+  link: https://www.broadcom.com/
+  job_title: Systems Engineer
+  dates: June 2012 – July 2013
+  description: | # this will include new lines to allow paragraphs
+    - Worked with the team in developing Wifi chip
+    - Worked with MIMO systems
+    - Worked in the design of AGC on WiFi chip
+   
