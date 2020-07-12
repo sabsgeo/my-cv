@@ -3,35 +3,20 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Sabu George
+title: Technical Lead / Solution Architect
+email: sabugeorge.mec@gmail.com
+phone: + 91-9650572511
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+github_username:  sabsgeo
+stackoverflow_username: "6583362"
+linkedin_username: abu-george-1495a467
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -44,16 +29,9 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
-
+about_profile_image: images/sabu.png
+about_content: |  
+  I am a self-motivated, enthusiastic, hands-on person who likes to get the hands dirty, solving problems in fields of cloud infrastructure/computing, website development, mobile app development, and embedded system development. I have 8+ years of industrial experience, of which 6+ years I worked with startups in different fields, exploring my interests. People who worked with me recognize me on my system design ability, speed, and flexibility to learn new things, my agility on black box debugging, and explaining technology to non-tecnical people in simple language. My hobbies are traveling, having a lot of coffee, doing electronic, electrical, and home decor projects for my home.  
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
