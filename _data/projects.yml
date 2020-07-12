@@ -33,8 +33,8 @@
       - Make desktop applications usable in a browser
     
       This capability is built on top of an opensource project [Apache Guacamole](https://guacamole.apache.org/). In this project, we packaged some applications on top of Apache Guacamole so that bioinformaticians can easily take their desktop applications to the cloud. This project uses:
-      - Docker as the main technology stack
-      - Java as the main language
+      - **Docker** as the main technology stack
+      - **Python**, **Java** as the main language
 
 - layout: top-middle
   name: Architecture to code and build Angular and Shiny application 
@@ -47,9 +47,9 @@
       - Building and bundling should be efficient for applications
 
     This project used,
-      - Angular, Shiny and yeoman as the frameworks
-      - Typescript, Javascript and R as the main languages
-      - CircleCi for automated building and deployment
+      - **Angular**, **Shiny** and **Yeoman** as the frameworks
+      - **Typescript**, **Javascript**, **Python**, **R** as the main languages
+      - **CircleCi** for automated building and deployment
 
     This project gave both Angular developers and Shiny developers
       - A CLI for generating boilerplate of different kinds of application
