@@ -5,7 +5,7 @@
   quote: >
     A scalable cloud product for code packaging, computation and data exploration for bioinformatician
   description: |
-    I am the **technical lead/architect** for this project. In Polly compute, we build a scalable, secure cloud computing infrastructure that meets the data crunching, data exploration needs of bioinformaticians.
+    I am the **technical lead/architect/developer** for this project. In Polly compute, we build a scalable, secure cloud computing infrastructure that meets the data crunching, data exploration needs of bioinformaticians.
     Capabilities of Polly compute include scaling  of,
     - Batch Jobs
     - API requests
@@ -15,8 +15,8 @@
     - Way to maintain and build private and public dockers
 
     Polly compute uses,
-      - **Kubernetes** and **dockers** as the main underlying technology
-      - **AWS** and **Asure** cloud as the cloud providers
+      - **Kubernetes** and **dockers** as the main underlying technology stack
+      - **AWS** and **Asure** cloud as the cloud providers where services such as **AKS**, **EKS**, **DynamoDB**,**S3**, **Lambda**, **CloudWatch**
       - **Terraform** to maintain infrastructure as code
       - **Python**, **Typescript**, **Node**, **R** , **Java** as the main languages 
 
@@ -33,8 +33,9 @@
       - Make desktop applications usable in a browser
     
       This capability is built on top of an opensource project [Apache Guacamole](https://guacamole.apache.org/). In this project, we packaged some applications on top of Apache Guacamole so that bioinformaticians can easily take their desktop applications to the cloud. This project uses:
-      - **Docker** as the main technology stack
+      - **Docker**, **Kubernetes** as the main technology stack
       - **Python**, **Java** as the main language
+      - **AWS** and **Asure** cloud as the cloud providers where services such as **AKS**, **EKS**, **DynamoDB**, **S3**, **Lambda**, **CloudWatch**
 
 - layout: top-middle
   name: Architecture to code and build Angular and Shiny application 
@@ -55,3 +56,20 @@
       - A CLI for generating boilerplate of different kinds of application
       - Reusable components and service and scripts which helps to integrate with the platforms
       - CI/CD pipeline for the applications
+
+- layout: top-middle
+  name: Polly Platform
+  link: https://polly.elucidata.io/
+  quote: >
+    One stop solution to harness the power of biomedical data
+  description: |
+    I was lead developer during the initial phase of the project. During this time, we build the base architecture for the platform. The features of the platform include,
+      - Serving and hosting angular application
+      - Running computationally intensive analysis
+      - Running workflows on platform
+      - Sharing of analysis
+      - Restoring of analysis
+
+    These features were developed on
+      - **AWS** as the cloud provider, where AWS services such as **S3**, **ECS**, **Cloudfront**, **ECR**, **SQS**, **Dynamo**, **RDS**, **Lambda** were used
+      - **Python**, **Typescript** as the main languages
