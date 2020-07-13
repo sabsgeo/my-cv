@@ -16,7 +16,7 @@
 
     Polly compute uses,
       - **Kubernetes** and **dockers** as the main underlying technology stack
-      - **AWS** and **Asure** cloud as the cloud providers where services such as **AKS**, **EKS**, **DynamoDB**,**S3**, **Lambda**, **CloudWatch**
+      - **AWS** and **Azure** cloud as the cloud providers where services such as **AKS**, **EKS**, **DynamoDB**,**S3**, **Lambda**, **CloudWatch**
       - **Terraform** to maintain infrastructure as code
       - **Python**, **Typescript**, **Node**, **R** , **Java** as the main languages 
 
@@ -35,7 +35,7 @@
       This capability is built on top of an opensource project [Apache Guacamole](https://guacamole.apache.org/). In this project, we packaged some applications on top of Apache Guacamole so that bioinformaticians can easily take their desktop applications to the cloud. This project uses:
       - **Docker**, **Kubernetes** as the main technology stack
       - **Python**, **Java** as the main language
-      - **AWS** and **Asure** cloud as the cloud providers where services such as **AKS**, **EKS**, **DynamoDB**, **S3**, **Lambda**, **CloudWatch**
+      - **AWS** and **Azure** cloud as the cloud providers where services such as **AKS**, **EKS**, **DynamoDB**, **S3**, **Lambda**, **CloudWatch**
 
 - layout: top-middle
   name: Architecture to code and build Angular and Shiny application 
