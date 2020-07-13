@@ -7,10 +7,8 @@ name: Sabu George
 title: Technical Lead / Solution Architect
 email: sabugeorge.mec@gmail.com
 phone: + 91-9650572511
-
 # Dark Mode (true/false/never)
 darkmode: true
-
 # Social links
 github_username:  sabsgeo
 stackoverflow_username: "6583362"
@@ -26,7 +24,6 @@ linkedin_username: sabu-george-1495a467
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
-
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/sabu.png
