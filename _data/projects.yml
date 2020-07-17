@@ -12,7 +12,7 @@
     - [Jupyter Notebooks](https://jupyter.org/)
     - [Shiny applications](https://shiny.rstudio.com/)
     - GPU instances
-    - Way to maintain and build private and public dockers
+    - [Custom docker domain](https://twitter.com/elucidatacorp/status/1281620885791629315?ref_src=twsrc%5Etfw) like Docker hub to maintain and build private and public dockers
 
     Polly compute uses,
       - **Kubernetes** and **dockers** as the main underlying technology stack
