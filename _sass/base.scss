@@ -188,6 +188,10 @@ body {
     content: none !important;
   }
 
+  #theme-toggle {
+    display: none;
+  }
+
   img[src]:after {
     content: none !important;
   }
@@ -256,6 +260,9 @@ body {
       float: left;
       position: relative;
       top: 1px;
+  }
+  #theme-toggle > i {
+    margin-left: 1.5px;
   }
 
 }
