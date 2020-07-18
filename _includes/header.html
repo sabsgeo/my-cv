@@ -1,4 +1,30 @@
 <div class="container header-contianer">
+  <div style="text-align: right; margin-bottom: 20px;">
+    <a id="theme-toggle" title="Light Theme" data-state="dark" class="button button--sacnite button--round-l" style="width:36px;height:36px;text-align: center" onclick="modeSwitcher()">
+      <i class="fa fa-adjust" style="font-size: 23px;line-height: 36px;"></i>
+    </a>
+    <script>
+      function modeSwitcher() {
+        if (document.getElementById('theme-toggle').getAttribute('data-state') == 'dark') {
+            document.getElementById('theme-toggle').setAttribute('data-state', 'light');
+            document.body.classList.remove("dark");
+            document.getElementById('theme-toggle').setAttribute('title', 'Dark Theme');
+            for (const eachElem of document.getElementsByClassName("level-bar-inner")) {
+              eachElem.parentElement.style.background = 'rgb(241, 241, 241)';
+              eachElem.style.background = '#4C4C4C';
+            }
+        } else {
+            document.getElementById('theme-toggle').setAttribute('data-state', 'dark')
+            document.body.classList.add("dark");
+            document.getElementById('theme-toggle').setAttribute('title', 'Light Theme');
+            for (const eachElem of document.getElementsByClassName("level-bar-inner")) {
+              eachElem.parentElement.style.background = '#4C4C4C';
+              eachElem.style.background = '#DEDEDE';
+            }
+        }
+      }
+    </script>
+  </div>
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>

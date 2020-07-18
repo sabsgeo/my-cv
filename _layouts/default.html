@@ -40,10 +40,8 @@
   </main>
 
   {%- include footer.html -%}
-  {% if site.darkmode == false %}
-    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
-  {% endif %}
   <script>
+    document.body.classList.add("dark");
     (function() {
       for (const eachElem of document.getElementsByClassName("level-bar-inner")) {
         eachElem.style.width = eachElem.getAttribute('data-level');
