@@ -261,10 +261,6 @@ body {
       position: relative;
       top: 1px;
   }
-  #theme-toggle > i {
-    margin-left: 1.5px;
-  }
-
 }
 .skillset {
   .item {
@@ -283,5 +279,21 @@ body {
   .level-bar-inner {
       height: 12px;
       background: #DEDEDE;
+  }
+}
+
+@media print {
+  
+  .skillset .level-bar-inner {
+      background-color: #4C4C4C !important;
+      -webkit-print-color-adjust: exact; 
+  }
+}
+
+@media print {
+  
+  .skillset .level-bar {
+      background-color: #DEDEDE !important;
+      -webkit-print-color-adjust: exact; 
   }
 }

@@ -7,7 +7,7 @@
   description: |
     I am the **technical lead/architect/developer** for this project. In Polly compute, we build a scalable, secure cloud computing infrastructure that meets the data crunching, data exploration needs of bioinformaticians.
     Capabilities of Polly compute include scaling  of,
-    - Batch Jobs
+    - Batch Jobs using [Argo Project](https://github.com/argoproj/argo)
     - API requests
     - [Jupyter Notebooks](https://jupyter.org/)
     - [Shiny applications](https://shiny.rstudio.com/)
@@ -18,7 +18,7 @@
       - **Kubernetes** and **dockers** as the main underlying technology stack
       - **AWS** and **Azure** cloud as the cloud providers where services such as **AKS**, **EKS**, **DynamoDB**,**S3**, **Lambda**, **CloudWatch**
       - **Terraform** to maintain infrastructure as code
-      - **Python**, **Typescript**, **Node**, **R** , **Java** as the main languages 
+      - **Python**, **Typescript**, **Javascript**, **R** , **Java** as the main languages 
 
     Polly compute has two ways it faces the customers over the [web](http://polly.elucidata.io/), and over [terminal](https://www.npmjs.com/package/@elucidatainc/pollycli). 
 
